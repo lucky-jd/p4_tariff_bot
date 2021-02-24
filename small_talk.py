@@ -62,6 +62,7 @@ def get_responce_by_intent(intent):
     return random.choice(config.BOT_CONFIG['intents'][intent]['responses'])
 
 ## generatively
+# dialogues.txt скачать тут https://github.com/Koziev/NLP_Datasets/blob/master/Conversations/Data/dialogues.zip
 with open('dialogues.txt') as f:
     content = f.read()
 
